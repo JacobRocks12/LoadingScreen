@@ -121,9 +121,6 @@ $(function() {
 	if (l_serverName && !l_serverImage)
 		setServerName(l_serverName);
 
-	if (l_serverImage)
-		setServerName("<img src='"+l_serverImage+"'>");
-
 	if (l_bgOverlay)
 		$("#overlay").css("background-image", "url('images/overlay.png')");
 
